@@ -187,6 +187,7 @@ img{
     justify-content: space-between;
     padding-left: 156px;
     padding-right: 156px;
+    border-bottom: 1px solid #e7e9fc
 }
 
 .header-nav {
