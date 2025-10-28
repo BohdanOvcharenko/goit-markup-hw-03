@@ -150,9 +150,10 @@ img{
 }
 
 .container { 
-    max-width: 1440px;
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
 }
 
 .section{
@@ -183,26 +184,25 @@ img{
 }
 
 .header{
-    display: flex;
-    justify-content: space-between;
-    padding-left: 156px;
-    padding-right: 156px;
     border-bottom: 1px solid #e7e9fc
 }
 
 .header-nav {
     display: flex;
+    align-items: center;
 }
 
 .header-ul{
     display: flex;
     gap: 40px;
+}
+
+.header-nav-li{
     padding: 24px 0;
 }
 
 .logo{
     margin-right:76px;
-    padding: 24px 0;
 }
 
 .section-title {
@@ -211,77 +211,80 @@ img{
 }
 
 .section-title-h{
-    margin-bottom: 48px;
-    max-width: 736px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 600px;
+    max-width: 496px;
 }
 
 .section-title-button{
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    background-color:#4d5ae5;
     border-radius: 4px;
-    padding: 16px 32px;
     margin: 0 auto;
     display: block;
+    cursor: pointer;
 }
 
 .section-advantages-ul{
     display: flex;
     gap: 24px;
-    justify-content: center;
 }
 
-.section-advantages{
-    padding-left: 156px;
-    padding-right: 156px;
+.section-advantages-ul-li{
+    width: calc((100% - 72px) / 4);
 }
 
-.section-team{
-    padding: 120px 156px;
+.section-hh{
+    margin-bottom: 72px;
 }
 
 .section-team-ul{
     display: flex;
     gap: 24px;
-    justify-content: center;
-    text-align: center;
 }
 
 .section-img{
-    margin-bottom: 32px;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.section-team-box{
+    padding: 32px 0;
 }
 
 .section-hhh{
     margin-bottom: 8px;
 }
 
+.section-team-hhh{
+    text-align: center;
+}
+
 .section-p{
     margin-bottom: 32px;
 }
 
-.section-portfolio{
-    padding-left: 156px;
-    padding-right: 156px;
-}
-
 .section-portfolio-ul{
     display: flex;
-    gap: 24px;
-    justify-content: center;
+    column-gap: 24px;
     flex-wrap: wrap;
 }
 
+.section-portfolio-ul-li{
+    width: calc((100% - 48px) / 3);
+}
+
 .footer{
-    padding: 48px 156px;
-    display: block;
-    justify-content: space-between;
     padding-top: 100px;
     padding-bottom: 100px;
 }
 
+.footer-logo{
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
 .footer-p{
-    margin-top: 16px;
     max-width: 264px;
 }
 
