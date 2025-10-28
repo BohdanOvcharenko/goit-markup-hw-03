@@ -179,6 +179,11 @@ img{
     border-bottom: 1px solid #e7e9fc
 }
 
+.header-container{
+    padding: 24px 0;
+    justify-content: space-between;
+}
+
 .header-nav {
     display: flex;
     align-items: center;
@@ -197,6 +202,11 @@ img{
     margin-right:76px;
 }
 
+.container-title{
+    flex-direction: column;
+    align-items: center;
+}
+
 .section-title {
     padding-top: 188px;
     padding-bottom: 188px;
@@ -204,6 +214,7 @@ img{
 
 .section-title-h{
     max-width: 496px;
+    margin-bottom: 48px;
 }
 
 .section-title-button{
@@ -288,6 +299,10 @@ img{
 
 .footer{
     padding: 100px 0;
+}
+
+.footer-container{
+    flex-direction: column;
 }
 
 .footer-logo{
