@@ -179,8 +179,7 @@ img{
     border-bottom: 1px solid #e7e9fc
 }
 
-.header-container{
-    padding: 24px 0;
+.header-container {
     justify-content: space-between;
 }
 
@@ -195,10 +194,16 @@ img{
 }
 
 .header-nav-li{
+    display: block;
     padding: 24px 0;
 }
 
-.logo{
+.header-address-li{
+    display: block;
+    padding: 24px 0;
+}
+
+.logo-header{
     margin-right:76px;
 }
 
@@ -265,10 +270,6 @@ img{
 
 .section-team-hhh{
     text-align: center;
-}
-
-.section-p{
-    margin-bottom: 32px;
 }
 
 .section-team-p{
